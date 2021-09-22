@@ -1,6 +1,7 @@
 # N-Body-Problem
 The purpose of this program is to simulate gravity among N particles in 3D space.  This program implements the Forward Euler Method to predict where the bodies will travel by calculating the acceleration and updating the velocity and position accordingly.
 ## Formulas
+To view formulas, get [MathJax for Chrome](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima).
 The calculation for acceleration used in this program is the following:
 ### Acceleration of a Body in a System of N Bodies
 $a(i) = \sum_{j=1}^{N}m_j\frac{p_j-p_i}{d(p_i,p_j)^3 + 0.1}$
